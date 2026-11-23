@@ -1,6 +1,10 @@
 body {
-    background-color: lightgray;
     font-family: Arial, sans-serif;
-    color: darkblue;
+}
+
+.kartu-profil {
+    width: 300px;
+    background-color: lightgray;
     padding: 20px;
+    border: solid 2px blue;
 }

@@ -3,20 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profil Mahasiswa</title>
+    <title>Halaman Utama</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <h1>Profil Mahasiswa</h1>
+    <header>
+      <h1 id="judulUtama">Halaman Awal</h1>
+    </header>
 
-    <p>Halo! Saya sedang belajar Git dan GitHub.</p>
+    <nav>
+      <p>Beranda | Profil | Kontak</p>
+    </nav>
 
-    <h3>Hobi Saya</h3>
+    <div class="kartu-profil">
+      <p>Halo! Saya sedang belajar Git dan GitHub.</p>
+    </div>
 
-    <ul>
-      <li>Ngoding</li>
-      <li>Mendengarkan Musik</li>
-      <li>Menulis</li>
-    </ul>
+    <footer>
+      <p>Website Profil Siswa</p>
+    </footer>
+
+    <script>
+      document.getElementById("judulUtama").innerHTML = "Selamat Datang Siswa";
+    </script>
   </body>
 </html>
