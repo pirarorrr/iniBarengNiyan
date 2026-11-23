@@ -16,9 +16,20 @@
       <p>Beranda | Profil | Kontak</p>
     </nav>
 
+  <main>
+    <section>
+      <article>
     <div class="kartu-profil">
       <p>Halo! Saya sedang belajar Git dan GitHub.</p>
     </div>
+
+    <div id="kotak-pesan">
+      <p id="pesan-Status">Sedang Memuat...</p>
+    </div>
+    </article>
+    </section>
+  </main>    
+
 
     <footer>
       <p>Website Profil Siswa</p>
@@ -26,6 +37,7 @@
 
     <script>
       document.getElementById("judulUtama").innerHTML = "Selamat Datang Siswa";
+      document.getElementById("pesanStatus").textContent = "Data Berhasil Disimpan";
     </script>
   </body>
 </html>
